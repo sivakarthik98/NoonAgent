@@ -28,8 +28,8 @@
                     // Initialize the embedded service with the provided parameters
                     embeddedservice_bootstrap.init(
                         '00DWU00000CtcCF',  // Your Salesforce Organization ID
-                        'NoonAgent',  // The name of the chat service
-                        'https://ustglobalinc3-dev-ed.develop.my.site.com/ESWNoonAgent1735813279639',  // The URL of your service
+                        'Noon_Agent',  // The name of the chat service
+                        'https://ustglobalinc3-dev-ed.develop.my.site.com/ESWNoonAgent1735816529386',  // The URL of your service
                         {
                             scrt2URL: 'https://ustglobalinc3-dev-ed.develop.my.salesforce-scrt.com'  // Optional secure URL
                         }
@@ -41,7 +41,7 @@
         </script>
 
         <!-- Include the bot's bootstrap JavaScript to load and initialize it -->
-        <script type='text/javascript' src='https://ustglobalinc3-dev-ed.develop.my.site.com/ESWNoonAgent1735813279639/assets/js/bootstrap.min.js' onload='initEmbeddedMessaging()'></script>
+        <script type='text/javascript' src='https://ustglobalinc3-dev-ed.develop.my.site.com/ESWNoonAgent1735816529386/assets/js/bootstrap.min.js' onload='initEmbeddedMessaging()'></script>
     </div>
 
 </body>
